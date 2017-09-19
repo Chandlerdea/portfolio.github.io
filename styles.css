@@ -1,0 +1,19 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+header {
+	width: 100%;
+}
+
+header h1 {
+	width: 50%;
+}
+
+#nav-div {
+	width: 50%;
+}
+
+#home-div {
+	background-color: red;
+}
