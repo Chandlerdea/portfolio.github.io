@@ -1,0 +1,14 @@
+form {
+	width: 60%;
+	float: left;
+}
+
+#contact-info {
+	width: 40%;
+	float: right;
+}
+
+form input, form textarea {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}

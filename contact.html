@@ -3,6 +3,7 @@
 	<head>
 		<title>Contact Chandler</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="contact_styles.css">
 	</head>
 	<body>
 		<div class="container">
@@ -13,10 +14,10 @@
 			<form>
 				<fieldset>
 					<div class="contact-form-item">
-						<input name="name" placeholder="Your Name">
+						<input name="name" placeholder="Your Name" required>
 					</div>
 					<div class="contact-form-item">
-						<input name="email" placeholder="Your Email">
+						<input name="email" type="email" placeholder="Your Email" required>
 					</div>
 					<div class="contact-form-item">
 						<select name="budget" required>
@@ -28,13 +29,14 @@
 						</select>
 					</div>
 					<div class="contact-form-item">
-						<textarea placeholder="Tell me about what you are working on" required>
-							
-						</textarea>
+						<textarea name="message" placeholder="Tell me about what you are working on" required></textarea>
+					</div>
+					<div class="contact-form-item">
+						<input type="submit" value="Send">
 					</div>
 				</fieldset>
 			</form>
-			<aside>
+			<aside id="contact-info">
 				<ul>
 					<li>New Business: <a href="mailto:">some email</a></li>
 					<li>General Inquireies: <a href="mailto">some email</a></li>
