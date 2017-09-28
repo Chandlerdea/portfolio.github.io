@@ -63,6 +63,10 @@ ul {
   color: rgb(237, 107, 69);
 }
 
+#github-link {
+  color: blue;
+}
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
