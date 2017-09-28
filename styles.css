@@ -82,6 +82,12 @@ nav li {
   justify-content: center;
 }
 
+#portfolio-container p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .apps-list {
   display: flex;
   flex-wrap: wrap;
