@@ -108,12 +108,11 @@ nav li {
 }
 
 .apps-list a {
-  border-radius: 5px;
-  border-width: 1px;
+  border-bottom-width: 1px;
   border-color: black;
-  border-style: solid;
+  border-bottom-style: solid;
   margin: 1rem;
-  width: 46.5%;
+  width: 100%;
 }
 
 .apps-list a div {

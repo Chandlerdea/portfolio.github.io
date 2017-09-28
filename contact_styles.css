@@ -1,11 +1,18 @@
+#contact-header {
+
+}
+
+#contact-container {
+	display: flex;
+	flex-direction: row;
+}
+
 form {
 	width: 60%;
-	float: left;
 }
 
 #contact-info {
 	width: 40%;
-	float: right;
 }
 
 form input, form textarea {
