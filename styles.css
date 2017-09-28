@@ -83,6 +83,10 @@ nav li {
   height: 200px;
 }
 
+.apps-list a div {
+  margin: 8px;
+}
+
 
 
 
