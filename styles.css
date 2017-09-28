@@ -32,8 +32,11 @@ ul {
   clear: both;
 }
 
-.header-container, .main-container, .footer-container {
-  margin: 0px 20px 0px 20px;
+.header-container,
+.main-container,
+.footer-container {
+  margin: 0px auto;
+  max-width: 940px;
 }
 
 .header-container {
@@ -91,6 +94,7 @@ nav li {
 .apps-list {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .apps-list a {
@@ -99,7 +103,7 @@ nav li {
   border-color: black;
   border-style: solid;
   margin: 1rem;
-  width: 47%;
+  width: 46.5%;
 }
 
 .apps-list a div {
