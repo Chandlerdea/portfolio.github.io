@@ -67,6 +67,21 @@ nav li {
   width: 100%
 }
 
+#bio-container, #portfolio-container {
+  margin-top: 40px;
+}
+
+#contact-link {
+  color: red;
+  font-weight: 500;
+}
+
+#portfolio-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .apps-list {
   display: flex;
   flex-wrap: wrap;
@@ -79,16 +94,19 @@ nav li {
   border-style: solid;
   margin: 1rem;
   width: 47%;
-  /*height: 200px;*/
 }
 
 .apps-list a div {
   margin: 8px;
 }
 
-
-
-
+footer div {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
