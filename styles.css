@@ -50,7 +50,7 @@ ul {
 
 nav ul {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 8px 0 0;
   padding: 0
@@ -78,8 +78,8 @@ nav li {
   border-color: black;
   border-style: solid;
   margin: 1rem;
-  width: 45%;
-  height: 200px;
+  width: 47%;
+  /*height: 200px;*/
 }
 
 .apps-list a div {
