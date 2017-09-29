@@ -67,6 +67,14 @@ ul {
   color: blue;
 }
 
+#linkedin-link {
+  color: #0077B5
+}
+
+.harvard-link, #standord-link, .big-nerd-ranch-book, #github-link, #linkedin-link {
+  font-weight: 500;
+}
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
