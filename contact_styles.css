@@ -66,3 +66,18 @@ form input, form textarea {
 	text-align: right;
 }
 
+#contact-info ul li {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.email-address {
+	padding-bottom: 2px;
+}
+
+.email-address:hover {
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 1;
+}
+
