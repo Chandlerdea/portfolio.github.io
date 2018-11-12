@@ -1,104 +1,493 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<title>Chandler De Angelis</title>
+		<meta charset="utf-8" />
 		<meta name="google-site-verification" content="xUsCGx1aLsq4QD-3J9ziBHp9_OREv8wSJOuS5hwt_IQ" />
-		<title>Chandlerdea LLC</title>
-		<link rel="stylesheet" type="text/css" href="normalize.css">
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="stylesheet" type="text/css" href="index_styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="home">
-		<header>
-			<div class="header-container">
-				<h1><a href="index.html">Chandler De Angelis</a></h1>
-				<nav>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Chandler De Angelis</a></h1>
+					<p><!--[-->I make apps for Apple devices<!--]--><br />
+					<!--[-->and I like riding mountain bikes<!--]--></p>
+				</header>
+				<nav id="nav">
 					<ul>
-						<li><h4><a href="resume.pdf">Resume</a></h4></li>
-						<li><h4><a href="https://github.com/Chandlerdea">Github</a></h4></li>
-						<li><h4><a href="https://www.linkedin.com/in/chandlerdea/">LinkedIn</a></h4></li>
-						<li><h4><a href="contact.html">Contact</a></h4></li>
-						<li><h4><a href="https://medium.com/chandler-de-angelis">Blog</a></h4></li>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Things I Can Do</a></li>
+						<li><a href="#three">Recent Projects</a></li>
+						<li><a href="resume.pdf">Resume</a></li>
+						<li><a href="#four">Contact</a></li>
 					</ul>
 				</nav>
+				<footer>
+					<ul class="icons">
+						<!---<li><a href="https://www.linkedin.com/in/chandlerdea/"><img src="image/linkedin-plain.svg"><span class="label">LinkedIn></span></a></li>-->
+						<li><a href="https://www.github.com/Chandlerdea" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:me@chandlerdea.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Software Engineer</h2>
+										<p><!--[-->Native iOS and Mac applications<!--]--><br />
+										<!--[-->Design + Development<!--]-->.</p>
+									</header>
+									<p>I've been making software since 2010, specializing in iOS. I've worked on apps with tens of millions of users, and apps for small businesses generating millions in revenue. I've been writing Swift since it was released, and have a deep knowledge of the Cocoa and Cococa Touch frameworks. I've worked on large legacy projects, slowly converted Objective-C codebases to Swift, and build apps in both Swift and Objective C from the ground up. Check out my <a href="https://github.com/Chandlerdea" id="github-link">Github</a> if you want to see some examples of my code. You can also check out my <a href="https://www.linkedin.com/in/chandlerdea/" id="linkedin-link">LinkedIn</a> for more information. I also have a <a href="https://medium.com/chandler-de-angelis">blog</a> that I post to occasinally.</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Things I Can Do</h3>
+									<p>My expertise is iOS development, including the following:</p>
+									<ul class="feature-icons">
+										<li class="fa-code"><!--[-->Write all the code<!--]--></li>
+										<li class="fa-cubes"><!--[-->Design the architecture of the code<!--]--></li>
+										<li class="fa-book"><!--[-->UI & UX design<!--]--></li>
+										<li class="fa-coffee"><!--[-->Continuous Integration<!--]--></li>
+										<li class="fa-bolt"><!--[-->iOS Automation<!--]--></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Recent Projects</h3>
+									<p>These are some recent projects I have worked on. Some are not available on the app store, and others were on the app store at one time, but have been taken down. If would like to know about any other kinds of projects I have worked on, let me know. Here are a few of my most recent projects:</p>
+									<div class="features">
+										<article>
+											<!-- <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
+											<div>
+												<a href=""><h4><!--[-->Surgio<!--]--></h4></a>
+												<p>I completely rewrote the app, moving it over from being a hybrid Cordova app, to being completely native. The app depends on offline functionality, requiring me to leverage URL caching and storing large amounts of data on disk for offline use. I also built custom animations, and had input on the design.</p>
+											</div>
+										</article>
+										<article>
+											<!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> -->
+											<div>
+												<a href="https://itunes.apple.com/us/app/id1195233335?mt=35"><h4><!--[-->Yarn<!--]--></h4></a>
+												<p>I played an integral role in the development of Yarn 5.0. I was responsible for building out the 'backend' of the app, which included networking, the data model, and caching, as well as setting up CI.</p>
+											</div>
+										</article>
+										<article>
+											<!-- <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a> -->
+											<div>
+												<a href="https://itunes.apple.com/us/app/flipagram/id512727332?mt=8"><h4><!--[-->Flipagram<!--]--></h4></a>
+												<p>I built the initial implementation of the camera feature alonside one other iOS dev, using AVFoundation. I also created the ability for users to import music from iTunes, or the music library, into the Flipagram they were creating.</p>
+											</div>
+										</article>
+										<article>
+											<div>
+												<a href="https://itunes.apple.com/us/app/fox-sports-go/id711074743?mt=8"><h4><!--[-->Fox Sports Go<!--]--></h4></a>
+												<p>Fox Sports Go is a video streaming application on iOS for both iPhone and iPad, and is a major revenue source for Fox Sports. I worked on a team of 4 iOS developers, and helped implement new designs, as well as improve the efficiency of video streaming.</p>
+											</div>
+										</article>
+										<article>
+											<div>
+												<a href="https://youtu.be/MBxm6P2aRqs"><h4><!--[-->Fox Sports Big Board<!--]--></h4></a>
+												<p>Big Board was a very complex application. The app displayed real time stats for live games, showing play by play stats. I was one of the main developers on the project, designing architecture alongside other developers, and implementing frameworks used by other 3rd party developers. </p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>If you want to inquire about my services, or just want to say hi, send me an email and I'll get back to you.</p>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon fa-download">Icon</a></li>
+											<li><a href="#" class="button icon fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Chandlerdea LLC. All rights reserved.</li>
+							</ul>
+						</div>
+					</section>
+
 			</div>
-		</header>
-		<div class="main-container">
-			<div id="bio-container">
-				<h2>Freelance software engineer</h2>
-				<p>
-					Hello! My name is Chandler De Angelis, and I have spent my whole career making iOS apps. I started learning how to code during college in 2011. I started with different programming books, reading a book about the C programming language, then <a href="https://www.amazon.com/Objective-C-Programming-Ranch-Guide-Guides/dp/0321706285" class="big-nerd-ranch-book">Objective C</a>, and then <a href="https://www.amazon.com/iOS-Programming-Ranch-Guide-Guides/dp/0321773772" class="big-nerd-ranch-book">iOS development</a>. A downside of bypassing a computer science degree was that I was not taught some basic computer science concepts like Big O Notation, some of the more complex data structures, or different kinds of sorting algorithms. To make up for this, I took classes from <a href="https://www.harvard.edu/itunes" class="harvard-link">Harvard</a>, <a href="http://itunes.stanford.edu" id="stanford-link">Stanford</a>, and other Ivy League universities through Apple's iTunes U program. My favorite class was <a href="https://cs50.harvard.edu" class="harvard-link">Harvard's CS50 course</a>, I highly recommend it for anyone who is thinking about learning programming. Don't worry, the instructor is amazing, and makes everything easy to understand.
-				</p>
-				<p>
-					I've worked on apps with tens of millions of users, and apps for small businesses generating millions in revenue. I've been writing Swift since it was released, and have a deep knowledge of Cococa Touch. I've worked on large legacy projects, slowly converted Objective-C codebases to Swift, and build apps in both Swift and Objective C from the ground up. I am also proficient in HTML and CSS, and I can hack Javascript. Check out my <a href="https://github.com/Chandlerdea" id="github-link">Github</a> if you want to see some of my code, or see the source for this site (filing issues is totally welcome). You can also check out my <a href="https://www.linkedin.com/in/chandlerdea/" id="linkedin-link">LinkedIn</a> for more information. I also have a <a href="https://medium.com/chandler-de-angelis">blog</a> that I post to occasinally.
-				</p>
-				<p>
-					I am working as a Senior iOS Developer at <a href="http://www.mammoth.la">Mammoth Media</a>, so I am not taking freelance clients at the moment. But if you have any questions, or just want to say hello, <a href="contact.html" id="contact-link">contact me</a>.
-				</p>
-			</div>
-			<div id="portfolio-container">
-				<h3 id="portfolio-header">Portfolio</h3>
-				<ul class="apps-list">
-					<a href="https://itunes.apple.com/us/app/fox-sports-go/id711074743?mt=8">
-						<li>
-							<div>
-								<h4>Fox Sports Go</h4>
-								<p>
-									Fox Sports Go is a video streaming application on iOS for both iPhone and iPad, and is a major revenue source for Fox Sports. I worked on a team of 4 iOS developers, and helped implement new designs, as well as improve the efficiency of video streaming.
-								</p>
-							</div>
-						</li>
-					</a>
-					<a href="https://youtu.be/MBxm6P2aRqs">
-						<li>
-							<div>
-								<h4>Fox Sports Big Board</h4>
-								<p>
-									Big Board was a very complex application. The app displayed real time stats for live games, showing play by play stats. I was one of the main developers on the project, designing architecture alongside other developers, and implementing frameworks used by other 3rd party developers. 
-								</p>
-							</div>
-						</li>
-					</a>
-					<a href="https://itunes.apple.com/us/app/flipagram/id512727332?mt=8">
-						<li>
-							<div>
-								<h4>Flipagram</h4>
-								<p>
-									During my time at Flipagram, we had 32 million MAUs. We had teams responsible for different verticles in our business, and I was on the creation team. This meant that I was responcible for the whole creation flow of the app. I built the initial implementation of the camera feature alonside one other iOS dev, using AVFoundation. I also created the ability for users to import music from iTunes, or the music library, into the Flipagram they were creating.
-								</p>
-							</div>
-						</li>
-					</a>
-					<a href="https://www.spinlister.com/bikeshop">
-						<li>
-							<div>
-								<h4>Spinlister Pro</h4>
-								<p>
-									Spinlister Pro is a consumer facing iPad app for bike shops. The app took our company's monthly revenue from less than $1,000/month, to over $1,000,000/month, by giving bike shops a fast, modern way for customers to rent from their inventory. For most of my time at Spinlister, I was the only iOS developer, so I built the app on my own. The app gave customers the ability to view and rent bikes from bike shops, with a easy to use interface.
-								</p>
-							</div>
-						</li>
-					</a>
-					<a href="https://itunes.apple.com/us/app/id1195233335?mt=35">
-						<li>
-							<div>
-								<h4>Yarn</h4>
-								<p>
-									I played an integral role in the development of Yarn 5.0. I was responsible for building out the 'backend' of the app, which included networking, the data model, and caching, as well as setting up CI. We focused on building reusable components that could be used across applications, using the BUCK build system.
-								</p>
-							</div>
-						</li>
-					</a>
-				</ul>
-				<p>
-					These aren't the only apps I've worked on. Some are not available on the app store, and others were on the app store at one time, but have been taken down. If would like to know about these projects, <a href="contact.html" id="contact-link">contact me</a>.
-				</p>
-			</div>
-		</div>
-		<footer>
-			<div>
-				<p>&copy;2017 Chandlerdea LLC</p>
-			</div>
-		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
