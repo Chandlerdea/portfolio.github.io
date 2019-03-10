@@ -1,0 +1,114 @@
+# App Info
+ios_app_id                                : 1299415284                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : A timer for high intensity interval training that doesn't get in the way.
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Chandler De Angelis
+your_link                                 : https://chandlerdea.com
+your_city                                 : Phoenix
+email_address                             : me@chandlerdea.com
+facebook_username                         :
+instagram_username                        : chandlerdea
+twitter_username                          :
+github_username                           : Chandlerdea
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Create and Save your favorite workouts
+    description                           : Customize your workouts, by changing the exercise or rest durations of your circuits.
+    fontawesome_icon_name                 : magic
+
+  - title                                 : No need for an internet connection
+    description                           : Use the app on an airplane, under ground, or anywhere that doesn't have reception.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Apple Watch support coming soon!
+    description                           : I am working on adding Apple watch support, it's coming!
+    fontawesome_icon_name                 : play-circle
+
+  - title                                 : Detailed metrics coming soon!
+    description                           : I am planning on adding detailed metrics about the workouts that you perfrom
+    fontawesome_icon_name                 : sync
+
+  - title                                 : User accounts, multiple devices coming soon!
+    description                           : I plan on adding user accounts, so you can sync between multiple devices
+    fontawesome_icon_name                 : adjust
+
+  - title                                 : If you want a feature that isn't implemented, let me know!
+    description                           : I want to hear from my users! Let me know if you have any ideas for new features.
+    fontawesome_icon_name                 : star
+
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
